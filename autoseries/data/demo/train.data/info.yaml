@@ -1,0 +1,7 @@
+is_multivariate: true
+is_relative_time: false
+label: A3
+primary_id: [A2]
+primary_timestamp: A1
+schema: {A1: timestamp, A2: str, A3: num}
+time_budget: {load: 10.0, predict: 100.0, save: 10.0, train: 20.0, update: 40.0}

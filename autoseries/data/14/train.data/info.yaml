@@ -1,0 +1,20 @@
+---  
+time_budget:
+    train: 1200
+    predict: 120
+    update: 3
+    save: 120
+    load: 120
+
+schema:
+    "A1": "timestamp"
+    "A2": "str"
+    "A3": "num"
+
+is_multivariate: True
+is_relative_time: False
+
+primary_timestamp: "A1"
+primary_id: ["A2"]
+label: "A3"
+
